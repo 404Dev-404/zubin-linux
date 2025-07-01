@@ -22,13 +22,15 @@ int main() {
 	puts("ZubInit: mounted /proc!");
 	*/
 
+	// I don't think it needs /sys either.
+	/*
 	puts("ZubInit: mounting /sys");
 	if (mount("sysfs", "/sys", "sysfs", 0, NULL) != 0) {
 		perror("ZubInit: failed to mount /sys");
 		return 1;
 	}
 	puts("ZubInit: mounted /sys!");
-	
+	*/
 	puts("ZubInit: Jumping to /bin/viewer!");
 
 	char *argv[] = { "/bin/viewer", NULL };
