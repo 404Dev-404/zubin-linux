@@ -1,0 +1,6 @@
+THIS DOES NOT INCLUDE THE LINUX KERNEL HERE'S WHAT YOU HAVE TO DO
+
+1. git clone linux v6.15 (JUST v6.15 not like v6.15.4 just straight up 6.15)
+2. move that into a folder just called "linux" in the root directory of this repo
+3. copy the config file in the root of this repo to linux/.config
+4. youre good now just do ./build.sh to build and ./run.sh to run in qemu

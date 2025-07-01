@@ -1,0 +1,14 @@
+this is supposed to be compiled on linux in x64
+anything else and youre kinda on your own i fear
+
+definitely incomplete but like:
+gcc
+flex
+bison
+cpio - might be included
+gzip - might be included
+musl
+qemu
+make
+elfutils
+syslinux
